@@ -1,7 +1,4 @@
 こんにちは！　オイラはライゼン１９２０です！
-<table>
-  <tr>
-    <td><img src="./metrics/general.svg" alt="General Metrics"></td>
-    <td><img src="./metrics/language_and_commit_calendar.svg" alt="Language and Commit Calendar"></td>
-  </tr>
-</table>
+
+[<img align="left" width="480" alt="General Metrics" src="./metrics/general.svg">](#)
+[<img align="right" width="480" alt="Language and Commit Calendar" src="./metrics/language_and_commit_calendar.svg">](#)
