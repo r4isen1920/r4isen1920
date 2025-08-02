@@ -6,6 +6,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment:
+      name: production
     permissions:
       contents: write
     steps:
@@ -14,8 +16,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: r4isen1920
-          template: classic
           base: ""
           config_timezone: Asia/Singapore
           plugin_code: yes
